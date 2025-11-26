@@ -1,0 +1,54 @@
+here/* صفحة الفيلم */
+.movie-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px 50px;
+}
+
+.movie-poster img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.movie-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.movie-info h1 {
+    margin-bottom: 15px;
+}
+
+.movie-info p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.watch-buttons {
+    margin-top: 20px;
+}
+
+.watch-buttons button {
+    padding: 10px 20px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.watch-buttons button:hover {
+    background-color: #e60000;
+}
+
+/* أفلام مشابهة */
+.similar-movies {
+    padding: 20px 50px;
+}
+
+.similar-movies h2 {
+    margin-bottom: 20px;
+}
